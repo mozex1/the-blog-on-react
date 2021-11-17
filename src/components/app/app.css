@@ -1,0 +1,12 @@
+@import '../app-header/app-header.css';
+@import '../post-add-form/post-add-form';
+@import '../post-list-item/post-list-item';
+@import '..//post-list/post-list';
+@import '../post-status-filter/post-status-filter';
+@import '../search-panel/search-panel';
+
+/* .app {
+    margin: 0 auto;
+    max-width: 900px;
+} */
+
