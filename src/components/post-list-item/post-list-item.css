@@ -27,7 +27,7 @@
 .app-list-item .btn-trash {
     color: red;
 }
-.app-list-item .bi-heart-fill {
+.app-list-item i > .bi-heart-fill {
     margin-left: 12px;
     width: 15px;
     height: 15px;
@@ -36,7 +36,7 @@
     font-size: 16px;
     color: red;
     transition: 0.3s all;
-    transform: translateX(30px);
+    transform: translateX(30px) translateY(-3px);
     opacity: 0;
 }
 
@@ -48,9 +48,9 @@
   transition: 0.5s all;
 }
 
-.app-list-item.like .bi-heart-fill {
+.app-list-item.like i > .bi-heart-fill {
     opacity: 1;
-    transform: translateX(0px);
+    transform: translateX(0px) translateY(-3px);
 }
 
 .app-list-item.important .app-list-item-label {
